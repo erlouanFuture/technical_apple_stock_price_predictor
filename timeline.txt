@@ -1,0 +1,8 @@
+Apple_stock_predictor
+Louann Naccache (me) made the Apple price stock predictor. I tried to do my own data normalization in my previous project : Trial for predicting apple (stock) price. 
+However, this wasn't appearently a success, so today I have decided to use the scalar of SciKit learn which works better. 
+My idea before using it, was just to divide all the price close by the maximum. 
+However, I didn't directly give up : I did the same but with the local maximum (90 days per sample), the mean (subtractin by it).
+I also tried after it to convert the regression type model into a bayesian type model. In order to this : the model just says if it goes up or down. 
+I have spent about a full day (10a.m. to 2a.m.) doing this. Debugging was extremly long. Worst than that, google colab was in a full malfunction. So hopefully, my computer was working well. 
+It's now 2a.m., I am going to sleep. thanks.
